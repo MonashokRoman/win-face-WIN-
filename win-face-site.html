@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>win face ($WIN)</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #0d1117;
+      color: white;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    .container {
+      padding: 20px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+    .buy-button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: white;
+      background-color: #ff4500;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .buy-button:hover {
+      background-color: #e63e00;
+      box-shadow: 0 0 15px #ff4500;
+    }
+    .description, .gallery, .social-icons {
+      margin: 40px 0;
+    }
+    .social-icons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .social-icons a img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s;
+    }
+    .social-icons a img:hover {
+      transform: scale(1.2);
+    }
+    .gallery img {
+      margin-top: 20px;
+    }
+    .caption {
+      font-size: 1em;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" data-aos="fade-down">
+    <img src="https://i.imgur.com/izECdUe.png" alt="Win Face Logo">
+    <h1>win face ($WIN)</h1>
+    <a href="https://pump.fun/coin/8MyitV6ismFTkn4UAsiwkjv4Cym3Awezu34QQoFHpump" target="_blank" class="buy-button">Buy Now</a>
+
+    <div class="social-icons" data-aos="fade-up">
+      <a href="https://t.me/+uiCwsJJWJxtlMzYy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram"></a>
+      <a href="https://x.com/solana_penguin" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Twitter"></a>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div data-aos="zoom-in">
+      <img src="https://i.imgur.com/izECdUe.png" alt="Win Face Main">
+      <div class="caption">King of the Hill - April 23</div>
+    </div>
+    <div data-aos="zoom-in">
+      <img src="/mnt/data/Знімок екрана 2025-04-23 о 21.05.40.png" alt="Bonding Curve Progress">
+      <div class="caption">Bonding Curve: 4,218 SOL</div>
+    </div>
+    <div data-aos="zoom-in">
+      <img src="/mnt/data/Знімок екрана 2025-04-23 о 21.32.09.png" alt="Pump Dashboard">
+      <div class="caption">Pump Dashboard</div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
